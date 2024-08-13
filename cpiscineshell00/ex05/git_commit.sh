@@ -1,4 +1,4 @@
 #!/bin/bash
 
 
-git log | grep "
+git log | grep "commit " | sed "s/commit //g"
